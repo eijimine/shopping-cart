@@ -37,5 +37,4 @@ class Cart
        end
       end
   end
-
 end
