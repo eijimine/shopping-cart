@@ -33,9 +33,7 @@ class Cart
   def self.remove_product(product)
     @@cart.each do |crt|
       if crt.product_name == product
-      @@cart.delete(self)
-      else
-      puts "That item doesn't exist."
+      @@cart.delete(crt)
        end
       end
   end
